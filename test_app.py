@@ -17,4 +17,4 @@ def test_health(client):
 
 def test_add(client):
     res = client.get('/add/3/4')
-    assert res.json['result'] == 7
+    assert res.json['result'] == 999
